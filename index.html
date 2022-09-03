@@ -13,7 +13,7 @@
 
     <body>      
       
-      <nav class="navbar navbar-expand-lg bg-light sticky-top">
+      <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,10 +38,10 @@
       </nav>
 
       <div class="banner">
-        <div class="position-absolute top-0 start-50 translate-middle-x">
+        <div class="d-none d-md-block position-absolute top-0 start-50 translate-middle-x">
           <h1 class="banner-text">Jena Singleton</h1>
         </div>
-        <div class="banner-box position-absolute start-0 bottom-50">
+        <div class="d-none d-md-block banner-box position-absolute start-0 bottom-50">
           <div class="banner-text">
             Hello! My name is Jena Singleton. I created this website to be a conglomeration of all things that I do,
             whether that be professionally or a hobby. The goal of this website is to showcase my talents in software design/development,
@@ -51,8 +51,17 @@
             Enjoy!
           </div>
         </div>
+        <div class="d-block d-md-none position-absolute top-0 start-50 translate-middle-x">
+          <h1 class="banner-text">Jena Singleton</h1>
+        </div>
       </div>
-    </body>
-
+      <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+      <script>
+        $(window).on('load', function () {
+          $('#loading').hide();
+        }) 
+      </script>
+  </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </html>

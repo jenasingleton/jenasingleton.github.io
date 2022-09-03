@@ -1,11 +1,11 @@
 body {
     font-family: "Raleway", sans-serif;
-    background-color: #F6FBF0;
+    background-color: #FFF;
     color: #628795;
 }
 h1 {
     font-family: "Playfair Display SC", "Georgia", serif;
-    font-size: 80px !important;
+    font-size: 80px;
     font-weight: normal;
     color: #AA6728;
 }
@@ -13,7 +13,7 @@ h2 {
     font-family: "Playfair Display SC", "Georgia", serif;
     font-size: 1rem;
     font-weight: normal;
-    color: rgba(123, 132, 114, 0.5);
+    color: rgba(123, 132, 114);
 }
 
 h3 {
@@ -31,9 +31,27 @@ a {
     }
 
 .navbar {
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.1);
     border-bottom: white;
+    --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0);
+    /*--bs-navbar-toggler-icon-bg: ;*/
     /*rgba(123, 132, 114, 0.5);*/
+}
+
+.nav {
+    background-color: transparent;
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon{
+    background-image: url("images/menu.svg");
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url("images/close.svg");
+}
+
+.navbar-toggler-icon{
+    background-image: url("images/menu.svg");
 }
 
 .banner {
@@ -58,4 +76,51 @@ a {
 
 .banner-text {
     margin: 20px;
+}
+
+#loading {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+  }
+  
+  #loading-image {
+    z-index: 100;
+  }
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .banner-box{
+        color: white;
+        background-color:rgba(123, 132, 114, 0.5);
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1rem;
+        height: 40vh;
+        width: 100vw;
+    }
+    .banner-text{
+        margin: 5px;
+    }
+
+    .banner{
+        background-position: center bottom;
+    }
+
+    body {
+        background-color: #121e22;
+    }
 }
