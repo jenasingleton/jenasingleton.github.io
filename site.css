@@ -40,7 +40,7 @@ a {
     }
 
 .navbar {
-    background-color: #121e2250;
+    background-color: #121e2275;
     border-bottom: white;
     --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0);
     /*--bs-navbar-toggler-icon-bg: ;*/
@@ -74,7 +74,7 @@ a {
 
 .banner-box{
     color: white;
-    background-color:rgba(123, 132, 114, 0.5);
+    background-color:rgba(123, 132, 114, 0.75);
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -85,6 +85,11 @@ a {
 
 .banner-text {
     margin: 20px;
+}
+
+.photo-text {
+  font-size: 3rem;
+  color: white;
 }
 
 #loading {
@@ -375,7 +380,7 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 300px;
+    height: 500px;
     width: 100%;
   }
   .self2 {
@@ -383,7 +388,7 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 300px;
+    height: 500px;
     width: 100%;
   }
   .self3 {
@@ -391,15 +396,20 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 300px;
+    height: 500px;
     width: 100%;
   }
   .btn-banner:hover {
     background-color: #00000005;
-    opacity: 0.5;
+    opacity: 0.25;
   }
 
   .btn-banner:hover h3{
+    color: white;
+    opacity: 1;
+  }
+
+  .btn-banner h3{
     color: white;
     opacity: 1;
   }
@@ -413,7 +423,7 @@ a {
     height: 500px;
     width: 100vw;
     position: relative;
-    opacity: 0.75;
+    opacity: 0.60;
   }
   .banner-photo2 {
     background-image: url("images/photos/barista.jpg");
@@ -423,7 +433,7 @@ a {
     height: 500px;
     width: 100vw;
     position: relative;
-    opacity: 0.75;
+    opacity: 0.60;
   }
   .banner-photo3 {
     background-image: url("images/photos/banner-prom.jpg");
@@ -433,7 +443,7 @@ a {
     height: 500px;
     width: 100vw;
     position: relative;
-    opacity: 0.75;
+    opacity: 0.60;
   }
   .banner-photo4 {
     background-image: url("images/photos/wedding-banner.jpg");
@@ -443,7 +453,7 @@ a {
     height: 500px;
     width: 100vw;
     position: relative;
-    opacity: 0.75;
+    opacity: 0.60;
   }
   .jewelry-banner {
     background-image: url("images/jewelry-banner.jpg");
@@ -453,7 +463,13 @@ a {
     height: 500px;
     width: 100vw;
     position: relative;
-    opacity: 0.75;
+    opacity: 0.60;
+  }
+
+  .about-text {
+    width: 45%;
+    padding: 10px 15px 10px 15px;
+    margin: 10px 20px 10px 20px;
   }
 
 @media (max-width: 600px) {
