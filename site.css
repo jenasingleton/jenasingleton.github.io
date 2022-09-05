@@ -1,14 +1,22 @@
 body {
     font-family: "Raleway", sans-serif;
-    background-color: #FFF;
+    background-color: #121e22;
     color: #628795;
 }
-h1 {
+.banner h1 {
     font-family: "Playfair Display SC", "Georgia", serif;
     font-size: 80px;
     font-weight: normal;
     color: #AA6728;
 }
+
+h1 {
+  font-family: "Playfair Display SC", "Georgia", serif;
+  font-size: 3rem;
+  font-weight: normal;
+  color: #AA6728;
+}
+
 h2 {
     font-family: "Playfair Display SC", "Georgia", serif;
     font-size: 1rem;
@@ -17,21 +25,22 @@ h2 {
 }
 
 h3 {
-    font-weight: bold;
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-size: 1rem;
+    font-family: "Playfair Display SC", "Georgia", serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: rgba(123, 132, 114);
 }
 
 a {
     color: rgba(123, 132, 114, 0.5);
+    text-decoration: none;
 }
     a:hover {
         color: #628795;
     }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #121e2250;
     border-bottom: white;
     --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0);
     /*--bs-navbar-toggler-icon-bg: ;*/
@@ -94,6 +103,357 @@ a {
   
   #loading-image {
     z-index: 100;
+  }
+
+  .gallery-photo {
+    background-color: #FFF;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-origin: cover;
+    height: 500px;
+    width: 500px;
+  }
+
+  .photo1 {
+    background-image: url("images/photos/lizzie2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .photo2 {
+    background-image: url("images/photos/lizzie1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .photo3 {
+    background-image: url("images/photos/lizzie3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .photo4 {
+    background-image: url("images/photos/lizzie4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .photo5 {
+    background-image: url("images/photos/lizzie7.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .photo6 {
+    background-image: url("images/photos/lizzie6.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prod1 {
+    background-image: url("images/photos/prod1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prod2 {
+    background-image: url("images/photos/prod2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prod3 {
+    background-image: url("images/photos/prod3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prod4 {
+    background-image: url("images/photos/prod4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prod5 {
+    background-image: url("images/photos/prod5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prod6 {
+    background-image: url("images/photos/prod6.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prom1 {
+    background-image: url("images/photos/prom1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prom2 {
+    background-image: url("images/photos/prom2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prom3 {
+    background-image: url("images/photos/prom3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prom4 {
+    background-image: url("images/photos/prom4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prom5 {
+    background-image: url("images/photos/prom5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .prom6 {
+    background-image: url("images/photos/prom6.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .wed1 {
+    background-image: url("images/photos/wed1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .wed2 {
+    background-image: url("images/photos/wed2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .wed3 {
+    background-image: url("images/photos/wed3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .wed4 {
+    background-image: url("images/photos/wed4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .wed5 {
+    background-image: url("images/photos/wed5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .wed6 {
+    background-image: url("images/photos/wed6.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .jewel1 {
+    background-image: url("images/jewel1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .jewel2 {
+    background-image: url("images/jewel2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .jewel3 {
+    background-image: url("images/jewel3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .jewel4 {
+    background-image: url("images/jewel4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .jewel5 {
+    background-image: url("images/jewel5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .jewel6 {
+    background-image: url("images/jewel6.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .jewel7 {
+    background-image: url("images/jewel7.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .jewel8 {
+    background-image: url("images/jewel8.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .self1 {
+    background-image: url("images/self1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .self2 {
+    background-image: url("images/self2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .self3 {
+    background-image: url("images/self3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .btn-banner:hover {
+    background-color: #00000005;
+    opacity: 0.5;
+  }
+
+  .btn-banner:hover h3{
+    color: white;
+    opacity: 1;
+  }
+  
+
+  .banner-photo1 {
+    background-image: url("images/photos/beach-banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    position: relative;
+    opacity: 0.75;
+  }
+  .banner-photo2 {
+    background-image: url("images/photos/barista.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    position: relative;
+    opacity: 0.75;
+  }
+  .banner-photo3 {
+    background-image: url("images/photos/banner-prom.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    position: relative;
+    opacity: 0.75;
+  }
+  .banner-photo4 {
+    background-image: url("images/photos/wedding-banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    position: relative;
+    opacity: 0.75;
+  }
+  .jewelry-banner {
+    background-image: url("images/jewelry-banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    position: relative;
+    opacity: 0.75;
   }
 
 @media (max-width: 600px) {
