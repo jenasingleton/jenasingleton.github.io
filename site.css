@@ -26,9 +26,24 @@ h2 {
 
 h3 {
     font-family: "Playfair Display SC", "Georgia", serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: normal;
-    color: rgba(123, 132, 114);
+    color: #fff;
+}
+
+h4 {
+  font-family: "Playfair Display SC", "Georgia", serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: rgba(123, 132, 114);
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #6b6b6b; 
+  padding: 0rem 4rem;
 }
 
 a {
@@ -38,6 +53,16 @@ a {
     a:hover {
         color: #628795;
     }
+
+    a:hover > h5  {
+      color: #bdbdbd;
+    }
+
+
+.container {
+  padding: 0rem 4rem;
+  margin: 10px 0px; 
+}
 
 .navbar {
     background-color: rgba(18,30,34,0.8);
@@ -64,13 +89,19 @@ a {
 }
 
 .banner {
-    background-image: url("images/jena2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    position: relative;
+      /* The image used */
+      background-image: url("images/jena2.jpg");
+
+      /* Set a specific height */
+      min-height: 100vh; 
+      /* height: 100vh; */
+      width: 100%;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 }
 
 .banner-box{
@@ -120,262 +151,18 @@ a {
     width: 500px;
   }
 
-  .photo1 {
-    background-image: url("images/photos/lizzie2.jpg");
-    background-position: center center;
+  .parallax {
+
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
+    background-size: cover;
   }
-  .photo2 {
-    background-image: url("images/photos/lizzie1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .photo3 {
-    background-image: url("images/photos/lizzie3.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .photo4 {
-    background-image: url("images/photos/lizzie4.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .photo5 {
-    background-image: url("images/photos/lizzie7.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .photo6 {
-    background-image: url("images/photos/lizzie6.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prod1 {
-    background-image: url("images/photos/prod1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prod2 {
-    background-image: url("images/photos/prod2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prod3 {
-    background-image: url("images/photos/prod3.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prod4 {
-    background-image: url("images/photos/prod4.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prod5 {
-    background-image: url("images/photos/prod5.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prod6 {
-    background-image: url("images/photos/prod6.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prom1 {
-    background-image: url("images/photos/prom1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prom2 {
-    background-image: url("images/photos/prom2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prom3 {
-    background-image: url("images/photos/prom3.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prom4 {
-    background-image: url("images/photos/prom4.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prom5 {
-    background-image: url("images/photos/prom5.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .prom6 {
-    background-image: url("images/photos/prom6.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .wed1 {
-    background-image: url("images/photos/wed1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .wed2 {
-    background-image: url("images/photos/wed2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .wed3 {
-    background-image: url("images/photos/wed3.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .wed4 {
-    background-image: url("images/photos/wed4.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .wed5 {
-    background-image: url("images/photos/wed5.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .wed6 {
-    background-image: url("images/photos/wed6.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .jewel1 {
-    background-image: url("images/jewel1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .jewel2 {
-    background-image: url("images/jewel2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .jewel3 {
-    background-image: url("images/jewel3.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .jewel4 {
-    background-image: url("images/jewel4.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .jewel5 {
-    background-image: url("images/jewel5.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .jewel6 {
-    background-image: url("images/jewel6.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .jewel7 {
-    background-image: url("images/jewel7.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
-  .jewel8 {
-    background-image: url("images/jewel8.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    width: 100%;
-  }
+
   .self1 {
     background-image: url("images/self1.jpg");
     background-position: center center;
@@ -415,76 +202,20 @@ a {
     opacity: 1;
   }
   
+  .banner-photo {
+    object-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    opacity: 0.60;
+  }
 
-  .banner-photo1 {
-    background-image: url("images/photos/beach-banner.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  a.image {
+    display: block;
     height: 500px;
     width: 100vw;
-    position: relative;
-    opacity: 0.60;
-  }
-  .banner-photo2 {
-    background-image: url("images/photos/barista.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    width: 100vw;
-    position: relative;
-    opacity: 0.60;
-  }
-  .banner-photo3 {
-    background-image: url("images/photos/banner-prom.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    width: 100vw;
-    position: relative;
-    opacity: 0.60;
-  }
-  .banner-photo4 {
-    background-image: url("images/photos/wedding-banner.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    width: 100vw;
-    position: relative;
-    opacity: 0.60;
-  }
-  .banner-photo5 {
-    background-image: url("images/photos/food-banner.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    width: 100vw;
-    position: relative;
-    opacity: 0.60;
-  }
-  .banner-photo6 {
-    background-image: url("images/photos/nature-banner.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    width: 100vw;
-    position: relative;
-    opacity: 0.60;
-  }
-  .jewelry-banner {
-    background-image: url("images/jewelry-banner.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    width: 100vw;
-    position: relative;
-    opacity: 0.60;
   }
 
   .about-text {
